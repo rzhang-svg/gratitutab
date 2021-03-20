@@ -2,9 +2,7 @@
 <img width="1675" alt="Screen Shot 2021-03-19 at 5 24 00 PM" src="https://user-images.githubusercontent.com/14022404/111853361-f08c3a00-88d7-11eb-95cf-427b281459f3.png">
 <img width="1680" alt="Screen Shot 2021-03-19 at 5 22 55 PM" src="https://user-images.githubusercontent.com/14022404/111853369-f8e47500-88d7-11eb-829d-7c9839ad26fd.png">
 
-Gratitutab allows you to overwrite the new tab page with your own todo list chrome extension.
-It focuses on what you're able to do today and uses psychology to make tasks easier to process by changing your mentality from something HAS to be done as if
-it were a burden to you get to do soemthing so you appreciate yourself more.
+Looking through the many chrome extension productivity tabs, many have outdated designs and are complicated. We created a simple, yet powerful, beautiful to-do list chrome extension that aims to instill gratitude in busy and high-stressed people. Instead of saying "I have to do", they can now say "I get to" do certain tasks every day.
 
 ## Available Scripts
 First Fork the project off github
