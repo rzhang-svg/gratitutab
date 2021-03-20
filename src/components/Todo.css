@@ -1,0 +1,54 @@
+.todo-item-div {
+    top: 10px;
+    max-width: 400px;
+    width: auto;
+    text-align: left;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    box-sizing: border-box;
+    height: auto;
+    margin: 2%;
+    line-height: 30px;
+    padding: 2%;
+    margin-left: 2%;
+    margin-right: 2.5%;
+    word-break: break-all;
+}
+
+
+.todo-row {
+    text-align: right;
+    text-decoration: none;
+}
+
+.urgent {
+    background: #FFDE88;
+}
+
+
+.complete {
+    text-decoration: line-through;
+}
+
+.icons {
+    position: relative;
+    display: inline-block;
+    color: #bebebe;
+    text-align: right;
+    padding-left: 5%;
+}
+
+.checkbox-div {
+    text-align: left;
+}
+
+.checkbox {
+    border: 1px solid #bebebe  !important;
+    box-sizing: border-box !important;
+    border-radius: 100px !important;
+    background-color: #FFFCF5;
+}
+
+.outside-div{
+    display: inline-flex;
+}

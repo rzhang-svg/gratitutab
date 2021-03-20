@@ -1,38 +1,80 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+@import url("//db.onlinewebfonts.com/c/751859ed48262433504a363c60cc08f8?family=Display");
+@font-face {
+    font-family: 'Doppleganger-Display';
+    src: url('Doppelganger-Display.ttf') format('truetype');
+  }
 .App {
-  text-align: center;
+    background-color: #FFFCF5;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nowbox {
+    font-family: 'HK Grotesk', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#clockbox {
+    margin-top: 0.5%;
+    font-family: HK Grotesk, sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 62.54px;
+    background-color: #FFFCF5;
+}
+#datebox {
+    margin-top: 0.5%;
+    font-family: HK Grotesk, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+.title-heading {
+    font-family: 'Doppleganger-Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 80px;
+    letter-spacing: 0.015em;
 }
 
-.App-link {
-  color: #61dafb;
+.todo-category {
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.015em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TodoList-div {
+    display: inline-flex;
+} 
+
+.vertical-break {
+    position: relative;
+    margin-top: -1%;
+    border-left: 1px solid black;
+    height: 700px;
+    left: 0px;
+    width: auto;
+}
+
+.urgent-list {
+}
+
+.urgent-list-div{
+    text-align: center;
+}
+.urgent {
+    text-align: center;
+}
+.nonurgent {
+    text-align: right;
 }
