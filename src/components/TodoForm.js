@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import TextareaAutosize from 'react-textarea-autosize';
 
 export default function TodoForm(props) {
     const [input, setInput] = useState(props.edit ? props.edit.value : '')
@@ -19,7 +20,7 @@ export default function TodoForm(props) {
 
     return (
     <form className="todo-form" onSubmit={handleSubmit}>
-          <input
+          <TextareaAutosize
             type="text-area"
             placeholder="new"
             value = {input}
