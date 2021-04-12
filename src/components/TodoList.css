@@ -38,6 +38,11 @@
     letter-spacing: 0;
     background-color: #FFFCF5;
 }
+.todo-input:focus {
+    outline: none !important;
+    border:1px solid black;
+    box-shadow: 0 0 10px #719ECE;
+}
 
 .todo-button {
     border-radius: 100px;
