@@ -54,7 +54,7 @@ function TodoList(props) {
       return;
     }
 
-    const newTodos = [todo, ...todos];
+    const newTodos = [...todos, todo];
     setTodos(newTodos);
     // console.log("WE MADE IT PAST ADD TODO FUCK YEAH")
     console.log(...todos);
